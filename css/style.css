@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar-bg {
+    background-color: #BF3030;
+}
+
+.navbar-nav .nav-link {
+    color: #eeebe3;
+}
+
+nav ul a::after {
+    content: "";
+    background-color: #eeebe3;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin:0 auto;
+    transition: 0.3s;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 30%;
+}
+
+.home .container {
+    display: flex;
+    align-items: center;
+}
+
+.home .home-text {
+    width: 50%;
+    padding: 0 40px;
+}
+
+.cardapio .container .cardapio-text, .restaurante .container .restaurante-text, .formulario .container .formulario-text {
+    text-align: center;
+    margin: 15px;
+    color: #BF3030;
+}
+
+.card-title {
+    color: #BF3030!important;
+}
+
+.text-with-shadow {
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+.carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 56px;
+}
+
+.carousel-inner .carousel-item .carousel-caption p {
+    font-size: 22px;
+}
+
+.nome-restaurante {
+    width: 30%;
+    vertical-align: middle;
+}
+
+.estrelas-restaurante {
+    width: 15%;
+    vertical-align: middle;
+}
+
+.descricao-restaurant {
+    width: 55%;
+    vertical-align: middle;
+}
+
+.btn-custom {
+    background-color: #BF3030;
+    border-color: #BF3030;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #96341e;
+    border-color: #96341e;
+    color: #fff;
+}
+
+.footer {
+    background-color: #BF3030;
+    text-align: center;
+    height: 20%;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer i {
+    color: #BF3030;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    /* border-radius: 10px; */
+}
+
+.footer p {
+    margin-top: 10px;
+    color: white;
+}
